@@ -1,0 +1,5 @@
+.githooks/* text eol=lf
+deploy/linux-qnap/**/*.sh text eol=lf
+deploy/linux-qnap/*.conf text eol=lf
+deploy/linux-qnap/*.yaml text eol=lf
+local-h3-worker/workflow/*.json text eol=lf

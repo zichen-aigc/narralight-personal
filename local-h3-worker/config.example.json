@@ -1,0 +1,21 @@
+{
+  "displayName": "H3 工作站",
+  "workerId": null,
+  "serverBaseUrl": "http://127.0.0.1:17372",
+  "serverCaPath": null,
+  "comfyBaseUrl": "http://127.0.0.1:8188",
+  "workflowPath": "workflow/h3-base-4070-api.json",
+  "workflowSha256": "3d177045457dc8191f4ad646c4b61fa4d8531c182c5f281d160a7a3f0055bb47",
+  "ledgerPath": "data/worker-ledger.sqlite",
+  "spoolDir": "data/spool",
+  "privateKeyDpapiPath": "data/worker-key.dpapi",
+  "ffprobePath": "ffprobe",
+  "claimWaitSeconds": 25,
+  "idleDelayMs": 2000,
+  "comfyPollMs": 2000,
+  "cancelConfirmTimeoutMs": 60000,
+  "leaseRenewMs": 15000,
+  "requestTimeoutMs": 35000,
+  "uploadChunkBytes": 4194304,
+  "allowInsecureLoopback": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@narralight/local-h3-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "doctor": "node src/cli.mjs doctor --config config.json",
+    "pair": "node src/cli.mjs pair --config config.json",
+    "recover-pair": "node src/cli.mjs recover-pair --config config.json",
+    "start": "node src/cli.mjs run --config config.json",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/cli.mjs && node --check src/worker.mjs"
+  }
+}
